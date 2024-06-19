@@ -1,0 +1,41 @@
+body{ 
+    background-color: #0A0A0A;
+    padding: 2rem;
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.mother .description .text{ 
+    color: whitesmoke;
+}
+
+.mother .description{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+}
+.mother .description p{ 
+    width: 70%;
+    text-align: center;
+}
+.mother .description a{
+    color: #E5BF4A;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+}
+.mother .description a:hover{ 
+    border-bottom: 1px solid #E5BF4A;
+}
